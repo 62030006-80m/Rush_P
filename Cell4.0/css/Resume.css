@@ -1,0 +1,172 @@
+.container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 600px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left-side{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+.profile-txt{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.profile-txt .ima-P{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile-txt .ima-P img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profile-txt h4{
+    color: #fff;
+    font-size: larger;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4 em;
+}
+.profile-txt span{
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.contact_info{
+    padding-top: 40px;
+}
+.contact_info .title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.contact_info ul{
+    position: relative;
+    padding-left: 0;
+}
+.contact_info ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0px;
+    cursor: pointer   ;
+}
+.contact_info ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #fff;
+}
+.contact_info ul li .text{
+    font-size: larger;
+    color: #fff;
+    font-weight: 300;
+}
+
+.container .right-side{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.My-profile{
+    margin: 20px auto 20px auto;
+}
+.My-profile p{
+    text-align: justify;
+    font-size: large;
+}
+
+.Experience{
+    margin: 20px auto 20px auto;
+}
+.Experience .Box_Exp{
+    display: flex;
+    flex-direction: row;
+    margin: 20px ,0px;
+}
+.Experience .Box_Exp .year_company{
+    min-width: 150px;
+}
+.Box_Exp .year_company h5{
+    margin-right: 50px;
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+    font-size: 16px;
+}
+.Box_Exp .text h4{
+    text-transform: uppercase;
+    color: #2a7ad2;
+    font-weight: 600;
+    font-size: 16px;
+}
+.Box_Exp .text p{
+    text-align: justify;
+    font-size: large;
+}
+
+.about_skills{
+    margin: 20px auto 20px auto;
+}
+.about_skills .Box_ps{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.about_skills .Box_ps .HTML{
+    color: orange;
+}
+.about_skills .Box_ps .CSS{
+    color: rgb(94, 94, 230);
+}
+.about_skills .Box_ps .JS{
+    color: rgb(201, 201, 70);
+}
+.about_skills .Box_ps h4{
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: black;
+    font-size: x-large;
+    font-weight: 500;
+}
+.about_skills .Box_ps .text{
+    margin-left: 50px;
+}
+
+.about_interest ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr );
+}
+.about_interest li{
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    font-size: larger;
+    margin: 10px 0px;
+}
+.about_interest ul li .fa{
+    color: #2a7ad2;
+    font-size: x-large;
+}
